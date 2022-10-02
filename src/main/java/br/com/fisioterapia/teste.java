@@ -8,12 +8,12 @@ public class teste {
 
 	@RequestMapping("/")
 	public String principal() {
-		return "layout/index.html";
+		return "layout/index1.html";
 	}
 	
 	@RequestMapping
 	public String principa1l() {
-		return "layout/index.html";
+		return "layout/index1.html";
 	}
 	
 }
