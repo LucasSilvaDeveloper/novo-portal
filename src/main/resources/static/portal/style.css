@@ -7,6 +7,8 @@ body{
 	min-width: 250px;
 	max-width: 250px;
 	transition: all 0.5s;
+	top: 0;
+	bottom: 0;
 }
 
 .content{
@@ -36,8 +38,9 @@ hr.h-color{
 	#side_nav{
 		margin-left: -250px;
 		position: absolute;
-		min-height: 100vh;
 		z-index: 1;
+		top: 0;
+		bottom: 0;
 	}
 	
 	#side_nav.active{
